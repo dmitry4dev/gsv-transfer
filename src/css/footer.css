@@ -1,0 +1,14 @@
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 10px 20px;
+}
+
+.footer__logo {
+  width: 80px;
+}
+
+.footer__copyright {
+  font-size: 16px;
+}

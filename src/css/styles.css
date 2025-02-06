@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/Mulish-Regular.ttf');
+  src: local('Mulish-Regular'), local('Mulish') url('../font/Mulish-Regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../font/Mulish-Regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../font/Mulish-Regular.woff') format('woff');
+  /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../font/Mulish-Bold.ttf');
+  src: local('Mulish-Bold'), local('Mulish') url('../font/Mulish-Bold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../font/Mulish-Bold.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../font/Mulish-Bold.woff') format('woff');
+  /* Modern Browsers */
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before *::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  line-height: 1.2;
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+button:active, button:focus {
+	outline: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.sub-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+:root {
+  --white-color: #fff;
+  --turquoise-color: #30a69c;
+  --black-color: rgb(37, 36, 36);
+}
+
+@media all and (min-width: 600px) {
+
+  .sub-title {
+    margin-bottom: 80px;
+  }
+}
